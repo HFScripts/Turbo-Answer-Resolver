@@ -3,6 +3,9 @@ import openai
 openai.api_key = "APIKEYHERE"
 border = "=" * 50
 
+if openai.api_key == "APIKEYHERE":
+    openai.api_key = input("Please paste your OpenAI API key here: ")
+
 def generate_gpt_response(messages):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
