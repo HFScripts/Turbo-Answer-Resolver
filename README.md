@@ -62,7 +62,7 @@ To run the script, follow these steps:
 
 If you have any issues or need further assistance, consult the [OpenAI API documentation](https://beta.openai.com/docs/).
 
-#### To run nicely on windows:
+# Automatic running on Windows:
 What you can do is run the powershell file I have provided by opening powershell and running it from the command line. This will install python if you don't already have it, insteall the openai library then execute the script. If the script doesn't already exist in the same folder, it will download it from this repository.
 
 
